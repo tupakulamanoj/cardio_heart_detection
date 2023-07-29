@@ -1,0 +1,51 @@
+body{
+    background-image: url('https://cdn.mos.cms.futurecdn.net/pYF5YURHV2xggu6L2Dnjfb.jpg');
+    color:white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p{
+    font-size: 100px;
+}
+.first{
+    margin-top: -80px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+select{
+    padding: 8px;
+    border-radius: 10px;
+}
+input{
+    padding: 8px;
+    border-radius: 10px;
+}
+.second{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.third{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.four{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.five{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+button{
+    padding-left: 20px;
+    padding-right: 30px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 600px;
+    margin-top:-400px;
+    margin-bottom: -400px;
+}
+.but{
+    margin-top: -100px;
+}
