@@ -18,7 +18,7 @@ def hello():
         smoke=request.form['smoke']
         alcohol=request.form['alcohol']
         active=request.form['active']
-        model=joblib.load('cardioheart')
+        model=joblib.load(r".\cardio_heart_detection\cardioheart")
         prediction=model.predict([[gender,height,weight,BP_High,BP_Low,Cholestrol,gluocose,smoke,alcohol,active]])
         if prediction == 1 or prediction == '1' :
             return render_template('index2.html')
